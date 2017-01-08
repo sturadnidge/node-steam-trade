@@ -1,11 +1,13 @@
 {
   "name": "node-steam-trade",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Minimal implementation of a trade module for `node-steam`",
   "engines": {
     "node": "^4.1"
   },
-  "os" : [ "!win32" ],
+  "os": [
+    "!win32"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +24,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "node-steam":"*"
+    "node-steam": "*"
   }
 }

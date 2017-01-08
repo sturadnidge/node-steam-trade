@@ -1,0 +1,27 @@
+{
+  "name": "node-steam-trade",
+  "version": "0.0.1",
+  "description": "Minimal implementation of a trade module for `node-steam`",
+  "engines": {
+    "node": "^4.1"
+  },
+  "os" : [ "!win32" ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stu Radnidge <sturadnidge@gmail.com>",
+  "contributors": [
+    {
+      "name": "Nicholas",
+      "email": "vvnicholas@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sturadnidge/node-steam-trade.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-steam":"*"
+  }
+}
